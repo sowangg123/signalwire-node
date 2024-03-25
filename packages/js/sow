@@ -1,0 +1,13 @@
+// Assume 'digitPressed' is the variable holding the digit pressed by the recipient
+const digitPressed = '1'; // This is just an example, replace it with your actual logic
+
+// Check if the recipient pressed '1'
+if (digitPressed === '1') {
+    // If '1' was pressed, initiate call transfer to +1966498032
+    console.log('Initiating call transfer to +1966498032');
+    // Code to initiate call transfer to +1966498032 here
+} else {
+    // If no action is taken or invalid input, do nothing
+    console.log('No action taken. Hanging up the call.');
+    // Code to hang up the call here
+}
